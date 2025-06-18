@@ -1,3 +1,6 @@
+![C++](https://img.shields.io/badge/C++-17-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Progress](https://img.shields.io/badge/Progress-20%25-yellow)
 # HightPerf-Server
 c++高性能HTTP服务器    |    QPS 35k+    |      支持AI模型部署
 ## 技术亮点
