@@ -1,11 +1,9 @@
-// 简单HTTP服务器框架
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <unistd.h>
+#include <sys/epoll.h>
+#include <iostream>
 
+// Epoll服务器基础框架
 int main() {
-    int server_fd = socket(AF_INET, SOCK_STREAM, 0);
-    // 更多代码...
-    printf("Server started at port 8080!\n");
+    int epoll_fd = epoll_create1(0);
+    std::cout << "Epoll server created! Next step: add socket handling";
     return 0;
 }
